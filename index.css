@@ -1,0 +1,55 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  overflow: scroll;
+
+}
+
+li {
+  display: inline-block;
+  width: 10%;
+  text-align:center;
+  text-decoration: none;
+  color: black;
+}
+
+.rightnavbar {
+  float: right;
+}
+
+.leftnavbar {
+  float: left;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  text-decoration: underline;
+  color: black;
+}
+
+#logo {
+  padding-top: 100px;
+
+}
+
+#search {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+}
+
+#footer {
+  background-color: #F2F4F4;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
