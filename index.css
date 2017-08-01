@@ -4,12 +4,10 @@ ul {
   padding: 0;
   width: 100%;
   position: fixed;
-  overflow: scroll;
-
 }
 
 li {
-  display: inline-block;
+  display: inline;
   width: 10%;
   text-align:center;
   text-decoration: none;
@@ -47,6 +45,7 @@ li a:hover:not(.active) {
   padding-right: 200px;
   font-size: 20px;
 }
+
 
 #footer {
   background-color: #F2F4F4;
